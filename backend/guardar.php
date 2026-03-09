@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli("localhost", "root", "", "oceano_sostenible");
+$conn = new mysqli("postgresql://root:lRiVcodA9HuuAZJX7fTI2RajV300GnOv@dpg-d6nh5ghaae7s73avs7dg-a.oregon-postgres.render.com/oceano_sostenible");
 
 $id_ub = $_POST['id_ubicacion'];
 $temp = $_POST['temp'];
